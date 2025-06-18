@@ -8,6 +8,12 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@nuxt/icon',
-    '@nuxt/image'
-  ]
+    '@nuxt/image',
+    '@nuxtjs/tailwindcss'
+  ],
+  content: {
+    documentDriven: false,
+    studio: true  // Enable Nuxt Studio integration
+  },
+  css: ['~/assets/css/main.css']
 })
