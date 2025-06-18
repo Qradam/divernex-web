@@ -5,15 +5,17 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxt/content',
-    '@nuxt/eslint',
+    '@nuxt/eslint', 
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxtjs/tailwindcss'
   ],
+
   content: {
     documentDriven: false,
-    studio: true  // Enable Nuxt Studio integration
+    studio: true
   },
+
   css: ['~/assets/css/main.css']
 })
